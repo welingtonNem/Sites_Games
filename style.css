@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    height: 70px;
+    background-color: #360D49;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navhed {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.navhed li {
+    padding: 25px;
+    list-style: none;
+}
+
+.navhed li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navhed li a:hover {
+    color: rgb(157, 91, 10);
+}
+
+.login {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    padding: 5px;
+    background-color: #dbff12   ;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 1s;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.login:hover {
+    transform: scale(1.1);
+    color: #631E57;
+}
+
+.Buxo {
+    width: 100%;
+    background-color: black;
+    height: calc(100vh - 70px);
+    background-image: url('img/2669699.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.forms {
+    width: 100%;
+    height: 80vh;
+    background-color: #631E57;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.mon {
+    width: 312px;
+    height: 370px;
+    background-color: white;
+    border: 2px solid #631E57;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    border-radius: 9px;
+}
+
+.tele {
+    position: absolute;
+    right: 68%;
+    border-radius: 10px;
+}
+
+.mon p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttao {
+    padding: 10px;
+    background-color: #FFE440;
+    border-radius: 2px;
+    border: 0;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.buttao:hover {
+    transform: scale(1.1);
+}
+
+input {
+    padding: 10px;
+}
+
+.Meor h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.Meor button {
+    padding: 20px;
+    background-color: #FFE440;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+    transition-duration: 1s
+}
+
+.Meor button:hover {
+    transform: scale(1.1);
+}
+
+.Meor {
+    margin-left: 60px;
+}
+
+.main {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main p {
+    margin-left: 20%;
+    margin-right: 20px;
+}
+
+.main img {
+    margin-top: 40px;
+    margin-right: 15%;
+
+}
+
+.meno {
+    width: 100%;
+    height: 125vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.meno h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.meno img {
+    cursor: pointer;
+}
+
+.rodape {
+    position: static;
+    background-color: #360D49;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
